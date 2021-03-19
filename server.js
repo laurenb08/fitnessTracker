@@ -12,10 +12,20 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb://localhost/workout", {
-    useNewUrlParser: true,
-    useFindAndModify: false
-});
+// mongoose.connect("mongodb://localhost/workout", {
+//     useNewUrlParser: true,
+//     useFindAndModify: false
+// });
+
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/workout',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 app.use(require("./routes/htmlRoutes"));
 app.use(require("./routes/apiRoutes"));

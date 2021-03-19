@@ -21,9 +21,7 @@ This will help users keep track of their fitness progress
 
 ## **Screenshots**
 
-![](https://github.com/laurenb08/budgetTracker/raw/main/public/assets/Screen%20Shot%202021-03-10%20at%208.23.51%20PM.png)
-
-![](https://github.com/laurenb08/budgetTracker/raw/main/public/assets/Screen%20Shot%202021-03-10%20at%208.25.07%20PM.png)
+![](https://github.com/laurenb08/fitnessTracker/raw/main/assets/image/Screen%20Shot%202021-03-18%20at%209.15.59%20PM.png)
 
 ## **Questions**
 
